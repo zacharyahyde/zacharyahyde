@@ -1,0 +1,125 @@
+/***** BASE SETTINGS *****/
+
+
+body {
+	background-color: #1f202b;
+	color: white;
+}
+
+h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 30px;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #f70074;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/***** GRIDS *****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/***** HEADER *****/
+
+.jumbotron {
+	background: url('../img/hero-background.png');
+	background-size: cover;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	height: 800px;
+	padding-top: 250px;
+}
+
+
+.jumbotron span {
+	color: #f70074;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+	height: 600px;
+	text-align: center;
+}
+
+#portfolio {
+	margin-top: -20px;
+}
+
+.card {
+	background-color: #2e212b;
+	margin: auto;
+	margin-bottom: 50px;
+	margin-left: 300px;
+	padding-top: 10px;
+}
+
+.card-img-top {
+	height: 215px;
+	width: 300px;
+}
+
+/***** ABOUT *****/
+
+#about {
+	clear: left;
+	background-image: url('../img/about-me.png');
+	height: 550px;
+	color: black;
+}
+
+.profile-pic {
+	height: 350px;
+	width: 350px;
+	border-radius: 50%;
+	margin-left: 150px;
+	margin-top: 85px;
+}
+
+.about-text {
+	margin-top: 50px;
+	font-size: 18px;
+}
+
+/***** FOOTER *****/
+
+footer {
+	height: 450px;
+}
+
+#social-media ul {
+	padding-right: 50px;
+}
+
+#social-media ul li {
+	display: inline-block;
+}
+
+#connect {
+	text-align: center;
+}
+
+#connect .full-width {
+	padding: 115px 0;
+}
+
+#connect ul li {
+	padding-left: 20px;
