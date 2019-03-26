@@ -1,93 +1,133 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Zachary A. Hyde</title>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Code+Pro:400,600" rel="stylesheet">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Source+Code+Pro:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
-</head>
-<body>
-	<header>
-		<div class="full-width">
-			<div class="half-width">
-				<h1>&#60; zac hyde &#124; web developer &#47;&#62;</h1>
-			</div>
-			<div class="half-width">
-				<nav>
-					<ul>
-						<li><a href="#portfolio">portfolio</a></li>
-						<li><a href="#about">about</a></li>
-						<li><a href="#contact">contact</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-		<h2>let's <span>code</span> <br>something cool</h2>
-	</header>
-	<main>
-		<div id="portfolio">
-			<div class="full-width">
-				<h2>my portfolio</h2>
-				<div class="half-width">
-					<a href="https://zacharyahyde.github.io/jubilee/" target="_blank"><img src="img/jubilee-thumbnail.png" alt="jubilee-thumbnail"></a>
-					<a href="https://zacharyahyde.github.io/roguepickings/" target="_blank"><img src="img/roguepickingsthumbnail.png" alt="jubilee-thumbnail"></a>
-					<a href="https://zacharyahyde.github.io/lolcat-clock/" target="_blank"><img src="img/lolcat.png" alt="lolcat"></a>
-				</div>
-				<div class="half-width">
-					<div id="jubilee-description">
-						<h5>Jubilee Austen</h5>
-						<h6>HTML and CSS</h6>
-						<p>I built this static website for a fictitious client as part of my Skillcrush course.  This was my first attempt and I built it utilizing my Skillcrush lessons and a Photoshop PSD.</p>
-					</div>
-					<div id="rogue-description">
-						<h5>Rogue Pickings</h5>
-						<h6>HTML and CSS from a Photoshop Design Comp</h6>
-						<p>This website was a Skillcrush project and is a simple page for a food truck company called Rogue Pickings.  I built this website myself utilizing a Photoshop PSD which taught me how to both perfect my code while making it as simple as possible.</p>
-					</div>
-					<div id="lolcat">
-						<h5>LOL Cat Clock</h5>
-						<h6>Javascript</h6>
-						<p>My first project during Skillcrush's Introducation to Javascript was the LOLCat Clock. I wrote the javascript for this web app without utilizing any JS libraries or frameworks.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="about">
-			<h2>about me</h2>
-			<div class="full-width">
-				<div class="half-width">
-					<h6>I am passionate about the work I do for you.</h6>
-					<p>I am an Army veteran turned designer and developer. I live in the greater Raleigh-Durham area of North Carolina with my wife and four kids.  With a vast technical background, you can count on me to write clean, well-formatted, semantic code that is easy to read and collaborate on. I pride myself on my abilities to keep my products lean and fast as well as staying up to date with the current best practices. The Army engrained in me attention to detail and organizational skills that I will use that to write you clean and elegant code.</p>
-				</div>
-			</div>
-		</div>
-	</main>
-	<footer id="contact">
-		<h2>let's connect!</h2>
-		<div class="full-width">
-			<div class="third-width">
-				<h4>hire me!</h4>
-				<p>405.250.4920<br><a href="mailto:zac@madebyzac.com">zac [@] madebyzac.com</a></p>
-			</div>
-			<div class="third-width">
-				<h4>follow me!</h4>
-				<ul>
-					<li><a href="https://twitter.com/drjekyll75" target="_blank"><img src="img/twitter.png"></a></li>
-					<li><a href="https://github.com/zacharyahyde" target="_blank"><img src="img/github.png"></a></li>
-					<li><a href="https://linkedin.com/in/zacharyhyde75/" target="_blank"><img src="img/linkedin.png"></a></li>
-				</ul>
-			</div>
-			<div class="third-width">
-				<h4>meet me!</h4>
-				<p>Raleigh-Durham, NC<br>Let's grab coffee and chat!</p>
-			</div>
-		</div>
-	</footer>
-	<div>
-		<p id="copyright">Copyright &#169; 2019 &#124; Zachary A. Hyde</p>
-	</div>
-</body>
+
+    <title>Zachary A. Hyde</title>
+  </head>
+  <body>
+    <header>
+     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#portfolio">portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#connect">connect</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="jumbotron">
+        <h1 class="display-4">&#60; zac hyde &#124; web developer &#47;&#62;</h1>
+        <h2 class="lead">Army veteran turned designer, developer, and creative.</h2>
+        <br>
+        <p>let's <span>code</span> something amazing!</p>
+        <a class="btn btn-outline-success btn-lg" href="#connect" role="button">let's get coffee!</a>
+      </div>
+    </header>
+    </main>
+      <div id="portfolio" class="container marketing">
+        <h3 class="text-center">my portfolio</h3>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Jubilee Austen <span class="text-muted">HTML5 | CSS3 | Photoshop PSD</span></h2>
+            <p class="lead">I built this fictional static website as part of my Skillcrush course.  I utilized a Photoshop PSD and built it completely in HTML5 & CSS3.</p>
+          </div>
+          <div class="col-md-5">
+            <a href="https://zacharyahyde.github.io/jubilee/" target="_blank">
+              <img src="img/jubilee-thumbnail.png" class="img-fluid" alt="Responsive image">
+            </a>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Rogue Pickings <span class="text-muted">HTML5 | CSS3 | Photoshop PSD</span></h2>
+            <p class="lead">Static website for a traveling food company called Rogue Pickings. This website is built with HTML5 and CSS3 and was constructed entirely from a Photoshop PSD.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <a href="https://zacharyahyde.github.io/roguepickings/" target="_blank">
+              <img src="img/roguepickingsthumbnail.png" class="img-fluid" alt="Responsive image">
+            </a>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">LOL Cat Clock <span class="text-muted">JavaScript</span></h2>
+            <p class="lead">My first project for my Skillcrush JavaScript course.  I wrote the JavaScript for this web application without the use of any libraries or frameworks.</p>
+          </div>
+          <div class="col-md-5">
+            <a href="https://zacharyahyde.github.io/lolcat-clock/" target="_blank">
+              <img src="img/lolcat.png" class="img-fluid" alt="Responsive image">
+            </a>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+        <div id="about" class="container-fluid bg-2 text-center">
+          <h3 class="margin">about me</h3>
+          <p>I am an Army veteran turned designer and developer. I live in the greater Raleigh-Durham area of North Carolina with my wife and four kids. With a vast technical background, you can count on me to write clean, well-formatted, semantic code that is easy to read and collaborate on. I pride myself on my abilities to keep my products lean and fast as well as staying up to date with the current best practices. The Army engrained in me attention to detail and organizational skills that I will use that to write you clean and elegant code.</p>
+          <img src="img/me.png">
+        </div>
+
+        <div id="connect" class="container-fluid bg-3 text-center">
+          <br> 
+          <h3 class="margin">let's connect!</h3><br>
+          <div class="row">
+            <div class="col-sm-4">
+              <h4>hire me</h4>
+              <p>405<span>.</span>250<span>.</span>4920<br><a href="mailto:zac@zacharyahyde.com">zac [@] zacharyahyde.com</a></p>
+            </div>
+            <div class="col-sm-4"> 
+              <h4>follow me</h4>
+              <a href="https://twitter.com/drjekyll75" target="_blank">
+                <img src="img/twitter.png">
+              </a>
+              <a href="https://github.com/zacharyahyde" target="_blank">
+                <img src="img/github.png">
+              </a>
+              <a href="https://linkedin.com/in/zacharyhyde75/" target="_blank">
+                <img src="img/linkedin.png">
+              </a>
+            </div>
+            <div class="col-sm-4"> 
+              <h4>meet me</h4>
+              <p>Raleigh-Durham, NC<br>Let's grab coffee and chat!</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>

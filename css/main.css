@@ -1,216 +1,75 @@
-/***** BASE STYLES *****/
-
 body {
 	background-color: #1f202b;
+	color: white;
 }
 
-header {
+
+.bg-dark {
+	background-color: #1f202b !important;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+.jumbotron {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 2rem;
 	background-image: url("../img/hero-background.png");
-	background-repeat: no-repeat;
-	background-position: right bottom;
-	font-family: 'Montserrat', sans-serif;
-	color: white;
-	height: 800px;
+	background-size: cover;
 }
 
-h2 {
+
+.jumbotron p {
 	font-family: 'Source Code Pro', monospace;
 	font-weight: 600;
-	font-size: 36px;
+	font-size: 2rem;
+}
+
+.jumbotron p span {
 	color: #f70074;
 }
 
-/***** GRID SYSTEM *****/
-
-.full-width {
-	width: 1400px;
-	margin: 0 auto;
-}
-
-.half-width {
-	width: 700px;
-	float: left;
-}
-
-.third-width {
-	width: 460px;
-	float: left;
-	text-align: center;
-}
-
-/***** HEADER *****/
-
-header h1 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	font-weight: normal;
-}
-
-header h2 {
-	clear: both;
-	padding: 300px 0 20px 25px;
-	font-family: 'Source Code Pro', monospace;
-	font-weight: 600;
-	font-size: 72px;
-	color: white;
-}
-
-header h2 span {
-	color: #f70074;
-}
-
-nav {
-	float: right;
-}
-
-nav ul li {
-	display: inline-block;
-}
-
-nav ul li a {
-	text-decoration: none;
-	font-size: 30px;
-	color: white;
-	padding-left: 80px;
-}
-
-/***** PORTFOLIO *****/
-
-#portfolio {
-	color: white;
-	height: 1200px;
-}
-
-#portfolio h2 {
-	text-align: center;
-}
-
-#portfolio h5 {
+.featurette-heading {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 24px;
-	margin: 0;
-	padding: 0;
 }
 
-#portfolio h6 {
-	font-family: 'Montserrat', sans-serif;
+.text-muted {
 	font-weight: normal;
-	font-size: 24px;
-	margin: 0;
-	padding: 5px 0 10px 0;
 }
 
-#portfolio p {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: normal;
-	font-size: 24px;
-}
-
-#jubilee-description {
-	text-align: justify;
-	color: white;
-	height: 410px;
-}
-
-#jubilee-description h5 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 24px;
-	margin: 0;
-	padding: 0;
-}
-
-#jubilee-description h6 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: normal;
-	font-size: 24px;
-	margin: 0;
-	padding: 5px 0 10px 0;
-}
-
-#jubilee-description p {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: normal;
-	font-size: 24px;
-}
-
-#rogue-description {
-	height: 312px;
-}
-
-#lolcat {
-	height: 396px;
-}
-
-/***** ABOUT *****/
 
 #about {
-	height: 550px;
-	background-image: url("../img/about-me.png");
-	clear: both;
+	background-image: linear-gradient(#d3cce3, #e9e4f0);
+	background-size: cover;
+	color: black;
+	padding-bottom: 2rem;
 }
 
-#about h2 {
-	text-align: center;
-	padding-top: 50px;
+#about img {
+	border-radius: 50%;
 }
 
-#about h6 {
+h3 {
+	font-family: 'Source Code Pro', monospace;
+	color: #f70074;
+	font-weight: 600;
+}
+
+p {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 24px;
 }
 
-#about p {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 25px;
+#connect {
+	padding-bottom: 3rem;
 }
 
-/***** FOOTER *****/
-
-footer h2 {
-	text-align: center;
-}
-
-footer {
-	height: 450px;
-	color: white;
-}
-
-footer ul {
-	padding-right: 50px;
-}
-
-footer ul li {
-	display: inline-block;
-	padding-left: 20px;
-}
-
-footer h4 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 24px;
-}
-
-footer p {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: normal;
-	font-size: 24px;
-	text-decoration: none;
-}
-
-footer a {
+#connect a {
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
 }
 
-#copyright {
-	text-align: center;
-	font-size: 18px;
-	clear: all;
-	color: white;
+#connect span {
+	font-weight: bold;
 }
